@@ -38,19 +38,19 @@ class _Result {
     _type = result['type'];
   }
 
-  String get id => _id;
-
-  String get iso_639_1 => _iso_639_1;
-
-  String get iso_3166_1 => _iso_3166_1;
-
-  String get key => _key;
-
-  String get name => _name;
-
-  String get site => _site;
+  String get type => _type;
 
   int get size => _size;
 
-  String get type => _type;
+  String get site => _site;
+
+  String get name => _name;
+
+  String get key => _key;
+
+  String get iso_3166_1 => _iso_3166_1;
+
+  String get iso_639_1 => _iso_639_1;
+
+  String get id => _id;
 }
